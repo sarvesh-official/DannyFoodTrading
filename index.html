@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danny Food Trading</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="hidden md:flex items-center justify-between gap-10 py-2 px-10">
+        <div class="">
+            <img src="./assets/Logo.png" alt="">
+        </div>
+        <div class="flex gap-10 justify-evenly text-white font-bold ">
+            <a href="#home">HOME</a>
+            <a href="#categories">CATEGORIES</a>
+            <a href="#value">VALUE</a>
+            <a href="#about">ABOUT US</a>
+            <a href="#connect">CONNECT</a>
+        </div>
+    </nav>
+
+    <!-- Mobile Version -->
+    <div class="md:hidden flex justify-center align-center mob-nav">
+        <img src="./assets/d_logo.png" alt="">
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero flex justify-evenly flex-col text-white md:h-screen" id="home">
+        <h1>WELCOME TO DANNY FOOD TRADING CO.</h1>
+        <p>Danny Trading has been established in a fast dynamic developing city, Saudi Arabia. <br>
+        It develops local food items with high premium quality and registered trademark</p>
+    </section>
+
+    
+<!-- Scroll Div -->
+    <section class="scroll-div" id="categories">
+        <div class="chicken scroll">
+            <h1>FROZEN</h1>
+            <p>Items such as frozen meat, frozen poultry</p>
+        </div>
+        <div class="egg scroll">
+            <h1>CHILLED FOOD</h1>
+            <p>Items such as dairy and eggs</p>
+        </div>
+        <div class="beverages scroll">
+            <h1>BEVERAGES</h1>
+            <p>Items such as pantry essentials and bakery ingredients</p>
+        </div>
+        <div class="dry scroll">
+            <h1>DRY FOOD</h1>
+            <p>Items such as pantry essentials and bakery ingredients</p>
+        </div>
+        <div class="stationary scroll">
+            <h1>STATIONARY</h1>
+            <p>Items such as school essentials and workspace needs</p>
+        </div>
+    </section>
+
+    <!-- Our Values  -->
+    <section id="value" class="values flex flex-col items-center justify-center gap-4 pb-20 text-center">
+        <h1>OUR VALUES</h1>
+        <img src="./assets/Line.png" alt="" class="hidden md:block">
+        <p>Building Trust through Quality and Integrity: Our Commitment to Unwavering Values in FMCG Excellence</p>
+        <div class="values-div flex-col md:flex-row">
+            <div class="val">
+                <img src="./assets/availablitiy.png" alt="">
+                <h1>AVAILABILITY</h1>
+                <p>It’s our mission to make sure that all our Products to be available all over the year.</p>
+            </div>
+            <hr class="border-r-2 hidden md:block border-yellow-600 w-11 h-48">
+            <div class="val">
+                <img src="./assets/wholesale.png" alt="">
+                <h1>WHOLESALE</h1>
+                <p>Serving B2B with the most premium food brands Locally.</p>
+            </div>
+            <hr class="border-r-2 md:block hidden border-yellow-600 w-11 h-48">
+
+            <div class="val">
+                <img src="./assets/retail.png" alt="">
+                <h1>RETAIL</h1>
+                <p>Distributing the most premium brands to reach our consumers</p>
+            </div>
+            <hr class="border-r-2 md:block hidden border-yellow-600 w-11 h-48">
+
+            <div class="val">
+                <img src="./assets/best_price.png" alt="">
+                <h1>BEST PRICE</h1>
+                <p>We strive to guarantee year-round availability at the most competitive prices.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider-->
+    <div class="h-12 divider"></div>
+    <!-- Numbers -->
+    <section class="numbers flex flex-col md:flex-row justify-evenly items-center">
+        <div class="val">
+            <img src="./assets/likes.png" alt="" class="-mt-32">
+            <h1>OVER 100+</h1>
+            <p>SATISFIED CUSTOMERS</p>
+        </div>
+        <div class="val">
+            <img src="./assets/supplied.png" alt="" class="-mt-32">
+            <h1>SUPPLIED 10+</h1>
+            <p>INTERNATIONAL COMPANIES</p>
+        </div>
+
+        <div class="val">
+            <img src="./assets/star.png" alt="" class="-mt-32">
+            <h1>20+ YEARS</h1>
+            <p>EXPERIENCE</p>
+        </div>
+    </section>
+
+
+    <!-- Flex -->
+    <section class="flex flex-col md:flex-row item-center justify-center" id="about">
+        <div class="flex flex-col flex-about w-screen md:w-3/6">
+             <h1 class="text-xl text-3xl">ABOUT US</h1>
+            <p class="flex-para text-xl md:text-3xl">
+                As a pioneering supplier of food and <br>beverages in the region, our unwavering <br> commitment is to be recognized for <br> delivering high-quality and value-driven <br> products. Our dedication extends beyond <br> mere provision; we aim to cultivate <br> lasting customer relationships by <br> sustaining uniquely excellent services.
+            </p>
+        </div>
+        <div class="flex-img flex">
+            <img src="./assets/flex-img.png" alt="">
+        </div>
+    </section>
+
+
+    <!-- Our Clients -->
+   <section class="client-slider flex gap-16 justify-center pt-4">
+    <div class="div"><img src="./assets/alfai.png" alt="" class=""></div>
+    <div class="div"><img src="./assets/lipton.png" alt=""></div>
+    <div class="div"><img src="./assets/allrabie.png" alt=""></div>
+    <div class="div"><img src="./assets/ulker.png" alt=""></div>
+    <div class="div"><img src="./assets/pepsico.png" alt=""></div>
+    <div class="div"><img src="./assets/2560px-Saudia_logo 1@2x.png" alt=""></div>
+    <div class="div"><img src="./assets/tide.png" alt=""></div>
+   </section>
+
+
+
+   <!-- Our Clients 2 -->
+   <section class="flex text-white client2">
+    <h1>OUR CLIENTS</h1>
+
+    <p>Committed to Exceeding Expectations and Nurturing Client Success</p>
+
+    <div class="flex gap-10 flex-col mt-12 justify-center items-center">
+        <div class="flex gap-10 md:flex-row flex-col">
+            <div class="client-div flex justify-center items-baseline pl-10 flex-col">
+    
+                <h1>HOTELS</h1>
+            </div>
+            <div class="client-div flex justify-center items-baseline pl-10 flex-col  ">
+                <h1>OFFICES</h1>
+            </div>
+            <div class="client-div flex justify-center items-baseline pl-10 flex-col ">
+                <h1>BAKERIES</h1>
+            </div>
+        </div>
+        <div class="flex gap-10 md:flex-row flex-col">
+            <div class="client-div flex justify-center items-baseline pl-10 flex-col ">
+                <h1>RESTAURANTS</h1>
+            </div>
+            <div class="client-div flex justify-center items-baseline pl-10 flex-col  ">
+                <h1>CAFE</h1>
+            </div>
+            <div class="client-div flex justify-center items-baseline pl-10 flex-col ">
+                <h1>MANY MORE</h1>
+            </div>
+        </div>
+    </div>
+   </section>
+
+
+   <!-- Reach Out -->
+   <section class="flex items-center justify-center flex-col reachout text-center" id="connect">
+    <h1>REACH OUT TO US</h1>
+    <p>Your Gateway to Seamless Interaction</p>
+
+    <form id="contactForm" class="flex gap-12 md:gap-32 mt-12 justify-center w-auto flex-col md:flex-row" action="mailto:dannytraders@gmail.com" method="post" enctype="text/plain">
+        <div class="flex flex-col gap-16 justify-center items-center">
+            <input type="text" name="Name" placeholder="Your Name">
+            <input type="text" name="LastName" placeholder="Last Name">
+            <input type="text" name="Subject" placeholder="Subject">
+        </div>
+        <div class="flex flex-col gap-5 justify-center items-center">
+            <textarea name="Message" placeholder="Write Something.." id="" cols="30" class="" rows="10"></textarea>
+
+            <button type="submit">SEND</button>
+        </div>
+    </form>
+</section>
+
+
+   <!-- Footer -->
+   <footer class="flex h-20 items-center">
+    <img src="./assets/Logo.png" alt="" class="h-12">
+   </footer>
+</body>
+<script src="script.js"></script>
+</html>
