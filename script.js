@@ -11,6 +11,6 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     emailBody += "Subject: " + subject + "\n";
     emailBody += "Message: " + message;
 
-    var mailtoLink = 'mailto:dannytraders@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(emailBody);
+    var mailtoLink = 'mailto:dannyfoodcompany@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(emailBody);
     window.location.href = mailtoLink;
 });

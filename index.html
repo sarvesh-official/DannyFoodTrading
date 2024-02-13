@@ -30,8 +30,7 @@
     <!-- Hero Section -->
     <section class="hero flex justify-evenly flex-col text-white md:h-screen" id="home">
         <h1>WELCOME TO DANNY FOOD TRADING CO.</h1>
-        <p>Danny Trading has been established in a fast dynamic developing city, Saudi Arabia. <br>
-        It develops local food items with high premium quality and registered trademark</p>
+        <p>Danny Trading has been established in a fast dynamic developing city, Saudi Arabia.</p>
     </section>
 
     
@@ -64,28 +63,28 @@
         <h1>OUR VALUES</h1>
         <img src="./assets/Line.png" alt="" class="hidden md:block">
         <p>Building Trust through Quality and Integrity: Our Commitment to Unwavering Values in FMCG Excellence</p>
-        <div class="values-div flex-col md:flex-row">
-            <div class="val">
+        <div class="values-div flex-col md:flex-row  w-full gap-x-36 gap-y-8">
+            <div class="val mb-8 md:mb-0">
                 <img src="./assets/availablitiy.png" alt="">
                 <h1>AVAILABILITY</h1>
                 <p>It’s our mission to make sure that all our Products to be available all over the year.</p>
             </div>
             <hr class="border-r-2 hidden md:block border-yellow-600 w-11 h-48">
-            <div class="val">
+            <div class="val mb-8 md:mb-0">
                 <img src="./assets/wholesale.png" alt="">
                 <h1>WHOLESALE</h1>
                 <p>Serving B2B with the most premium food brands Locally.</p>
             </div>
             <hr class="border-r-2 md:block hidden border-yellow-600 w-11 h-48">
 
-            <div class="val">
+            <div class="val mb-8 md:mb-0">
                 <img src="./assets/retail.png" alt="">
                 <h1>RETAIL</h1>
                 <p>Distributing the most premium brands to reach our consumers</p>
             </div>
             <hr class="border-r-2 md:block hidden border-yellow-600 w-11 h-48">
 
-            <div class="val">
+            <div class="val mb-8 md:mb-0">
                 <img src="./assets/best_price.png" alt="">
                 <h1>BEST PRICE</h1>
                 <p>We strive to guarantee year-round availability at the most competitive prices.</p>
@@ -119,8 +118,8 @@
     <!-- Flex -->
     <section class="flex flex-col md:flex-row item-center justify-center" id="about">
         <div class="flex flex-col flex-about w-screen md:w-3/6">
-             <h1 class="text-xl text-3xl">ABOUT US</h1>
-            <p class="flex-para text-xl md:text-3xl">
+             <h1 class="text-5xl md:text-6xl">ABOUT US</h1>
+            <p class="flex-para text-sm md:text-3xl pb-6">
                 As a pioneering supplier of food and <br>beverages in the region, our unwavering <br> commitment is to be recognized for <br> delivering high-quality and value-driven <br> products. Our dedication extends beyond <br> mere provision; we aim to cultivate <br> lasting customer relationships by <br> sustaining uniquely excellent services.
             </p>
         </div>
@@ -131,21 +130,23 @@
 
 
     <!-- Our Clients -->
-   <section class="client-slider flex gap-16 justify-center pt-4">
-    <div class="div"><img src="./assets/alfai.png" alt="" class=""></div>
-    <div class="div"><img src="./assets/lipton.png" alt=""></div>
-    <div class="div"><img src="./assets/allrabie.png" alt=""></div>
-    <div class="div"><img src="./assets/ulker.png" alt=""></div>
-    <div class="div"><img src="./assets/pepsico.png" alt=""></div>
-    <div class="div"><img src="./assets/2560px-Saudia_logo 1@2x.png" alt=""></div>
-    <div class="div"><img src="./assets/tide.png" alt=""></div>
+   <section class="client-slider">
+    <div class="slide-track">
+        <div class="slide"><img src="./assets/alfai.png" alt="" class="" height="100" width="100"></div>
+        <div class="slide"><img src="./assets/lipton.png" alt="" height="100" width="100"></div>
+        <div class="slide"><img src="./assets/allrabie.png" alt="" height="100" width="100"></div>
+        <div class="slide"><img src="./assets/ulker.png" alt="" height="100" width="100"></div>
+        <div class="slide"><img src="./assets/pepsico.png" alt="" height="100" width="100"></div>
+        <div class="slide"><img src="./assets/2560px-Saudia_logo 1@2x.png" alt="" height="100" width="100"></div>
+        <div class="slide"><img src="./assets/tide.png" alt="" height="100" width="100"></div>
+    </div>
    </section>
 
 
 
    <!-- Our Clients 2 -->
-   <section class="flex text-white client2">
-    <h1>OUR CLIENTS</h1>
+   <section class="flex text-white client2 text-center p-2">
+    <h1 class="text-3xl">OUR CLIENTS</h1>
 
     <p>Committed to Exceeding Expectations and Nurturing Client Success</p>
 
@@ -179,11 +180,11 @@
 
    <!-- Reach Out -->
    <section class="flex items-center justify-center flex-col reachout text-center" id="connect">
-    <h1>REACH OUT TO US</h1>
+    <h1 class="text-xl md:text-3xl">REACH OUT TO US</h1>
     <p>Your Gateway to Seamless Interaction</p>
 
     <form id="contactForm" class="flex gap-12 md:gap-32 mt-12 justify-center w-auto flex-col md:flex-row" action="mailto:dannytraders@gmail.com" method="post" enctype="text/plain">
-        <div class="flex flex-col gap-16 justify-center items-center">
+        <div class="flex flex-col gap-8 md:gap-10 justify-center items-center">
             <input type="text" name="Name" placeholder="Your Name">
             <input type="text" name="LastName" placeholder="Last Name">
             <input type="text" name="Subject" placeholder="Subject">
@@ -198,8 +199,12 @@
 
 
    <!-- Footer -->
-   <footer class="flex h-20 items-center">
-    <img src="./assets/Logo.png" alt="" class="h-12">
+   <footer class="flex h-26 items-center justify-center">
+    <div class="flex w-screen text-white justify-around items-center flex-col md:flex-row">
+       <p>dannyfoodcompany@gmail.com</p>
+       <img src="./assets/dlogo.png" alt="">
+       <p>12Th Street Al-Thuqbah Dist.</p>
+    </div>
    </footer>
 </body>
 <script src="script.js"></script>
