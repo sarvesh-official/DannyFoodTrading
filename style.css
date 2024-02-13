@@ -98,23 +98,23 @@ a:hover{
 }
 
 .chicken {
-    background: url("/assets/frozen.png");
+    background: url("./assets/frozen.png");
 }
 
 .egg {
-    background: url("/assets/egg.png");
+    background: url("./assets/egg.png");
 }
 
 .beverages {
-    background: url("/assets/beverages.png");
+    background: url("./assets/beverages.png");
 }
 
 .dry {
-    background: url("/assets/dry.png");
+    background: url("./assets/dry.png");
 }
 
 .stationary {
-    background: url("/assets/stationary.png");
+    background: url("./assets/stationary.png");
 }
 
 
