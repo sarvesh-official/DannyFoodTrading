@@ -55,10 +55,12 @@ a:hover{
 
 /* Scroll Div */
 .scroll-div {
-    background: #211F20;
+    background: url("./assets/LOGOBG.png");
     overflow: hidden; 
+    background-repeat: no-repeat;
     white-space: nowrap; 
 }
+
 
 .scroll {
     padding-top: 20%;
@@ -69,7 +71,7 @@ a:hover{
     width: 450px;
     display: inline-block; 
     position: relative; 
-    animation: scrollAnimation 40s linear infinite; 
+    animation: scroll 40s linear infinite; 
 }
 
 .scroll:hover{
@@ -373,4 +375,5 @@ form button{
 
 footer{
     background-color: #211F20;
+}
 }
