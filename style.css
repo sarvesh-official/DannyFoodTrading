@@ -56,11 +56,25 @@ a:hover{
 /* Scroll Div */
 .scroll-div {
     background: url("./assets/LOGOBG.png");
-    overflow: hidden; 
+    overflow: hidden;
     background-repeat: no-repeat;
-    white-space: nowrap; 
+    position: relative;
+    white-space: nowrap;
 }
 
+.scroll-track {
+    display: inline-flex;
+    width: max-content;
+}
+
+.scroll-group {
+    display: inline-flex;
+    animation: scroll 40s linear infinite;
+}
+
+.scroll-div:hover .scroll-group {
+    animation-play-state: paused;
+}
 
 .scroll {
     padding-top: 20%;
@@ -69,9 +83,7 @@ a:hover{
     color: white;
     padding-left: 20px;
     width: 450px;
-    display: inline-block; 
-    position: relative; 
-    animation: scroll 40s linear infinite; 
+    display: inline-block;
 }
 
 .scroll:hover{
@@ -88,15 +100,6 @@ a:hover{
 .scroll p{
     width:  50px;
     font-weight: 600;
-}
-
-@keyframes scrollAnimation {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-120%);
-    }
 }
 
 .chicken {
@@ -219,37 +222,40 @@ a:hover{
     margin: auto;
     overflow: hidden;
     position: relative;
-    width: auto;
+    width: 100%;
 }
 
-
-
-.client-slider img{
-    object-fit :contain;    
+.slide-track {
+    display: inline-flex;
+    width: max-content;
 }
 
-.client-slider .slide-track{
+.slide-group {
+    display: inline-flex;
     animation: scroll 40s linear infinite;
-    display: flex;
-    width: calc(250px * 14);
 }
 
-.client-slider .slide{
+.client-slider:hover .slide-group {
+    animation-play-state: paused;
+}
+
+.slide {
     display: flex;
     padding: 2px 0;
     align-items: center;
     justify-content: center;
     width: 250px;
+    flex-shrink: 0;
 }
 
-
+/* Updated scroll animation */
 @keyframes scroll {
- 0%{
-    transform: translateX(0);
- }   
- 100%{
-    transform: translateX(calc(-250px * 7));
- }
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
 }
 
 /* Client 2 */
